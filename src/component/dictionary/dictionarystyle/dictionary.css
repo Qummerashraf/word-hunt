@@ -1,0 +1,53 @@
+audio {
+  display: block !important;
+  color: aqua;
+}
+
+h2::before {
+  content: "*";
+  display: inline-block;
+  margin: 0px 3px;
+  position: relative;
+  top: 3px;
+}
+
+#synons {
+  color: white;
+  background-color: coral;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+#id {
+  display: inline-block;
+  margin: 15px 0px;
+  color: white;
+  background-color: #00b469;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.synonlist {
+  font-weight: 400;
+}
+
+#exam {
+  font-weight: 600;
+}
+
+.word {
+  float: left;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.word h1 {
+  border-bottom: 3px solid gray;
+}
+
+.clear {
+  clear: both;
+  display: block;
+}
+/*# sourceMappingURL=dictionary.css.map */

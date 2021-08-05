@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c4f1ff;
+}
+
+.show {
+  width: 70%;
+  margin: 0px auto;
+  border: 1px solid black;
+  max-height: 65vh;
+  overflow: auto;
+  padding: 20px 10px;
+  border-radius: 10px;
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
+  color: #505050;
+}
+
+.darkmode {
+  text-align: right;
+}
+
+.showcom p {
+  font-size: 34px;
+  font-weight: 600;
+  font-family: cursive;
+  border-bottom: 3px solid gray;
+}
+
+.showcom blockquote {
+  font-weight: 500;
+  font-size: 20px;
+}
+/*# sourceMappingURL=display.css.map */
